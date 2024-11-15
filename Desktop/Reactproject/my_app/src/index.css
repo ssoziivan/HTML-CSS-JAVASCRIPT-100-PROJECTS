@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+  background-color: lemonchiffon;
+}
+
+.navbar{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1{
+  color: #f135f1;
+}
+ 
+.navbar .links{
+  
+  margin-left: auto;
+}
+.links a{
+  text-decoration: none;
+  margin-left:  10px;
+  padding: 6px;
+  color: red;
+}
+.content{
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+.blog-preview{
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.blog-preview:hover{
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+
+.blog-preview h2{
+  font-size: 20px;
+  color: #f135f1;
+  margin-bottom: 8px;
+}
